@@ -1,0 +1,8 @@
+.app__custom-btn {
+  background-color: var(--color-black);
+  border: none !important;
+  padding: 10px 15px !important;
+}
+.app__custom-btn:focus {
+  box-shadow: none !important;
+}

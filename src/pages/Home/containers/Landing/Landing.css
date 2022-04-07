@@ -1,0 +1,43 @@
+.app__landing {
+  min-height: 90vh !important;
+}
+
+.app__landing-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.app__landing-info {
+  flex: 0.5;
+}
+.app__landing-info h1 {
+  font-size: 3rem;
+  text-align: start;
+}
+.app__landing-info p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  text-align: start;
+}
+.app__landing-nav {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.app__landing-nav-demo {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.app__landing-nav-demo p {
+  font-size: 1rem;
+  margin: 0;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 992px) {
+  .app__landing-info {
+    flex: 1;
+  }
+}

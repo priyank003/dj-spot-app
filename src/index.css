@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--color-gray-bg);
+  background-color: var(--color-gray-bg) !important;
 }
 
 code {
@@ -35,8 +35,8 @@ code {
 }
 
 a {
-  color: unset;
-  text-decoration: none;
+  color: unset !important;
+  text-decoration: none !important;
 }
 
 .slide-bottom {

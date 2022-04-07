@@ -16,6 +16,17 @@
   justify-content: center;
   align-items: center;
 }
+.section__padding {
+  padding: 4rem 6rem;
+}
+
+.app__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  min-height: 100vh;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

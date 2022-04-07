@@ -1,0 +1,31 @@
+.app__feature-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.app__feature-div p {
+  text-align: start;
+}
+.app__feature-div-nav {
+  display: flex;
+  align-items: center;
+}
+.app__feature-div-nav p {
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+  font-weight: 600;
+}
+.app__feature-icon {
+  height: 50px;
+  width: 100px;
+  background: #373737;
+}
+.app__feature-div-header {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  text-align: start;
+}
