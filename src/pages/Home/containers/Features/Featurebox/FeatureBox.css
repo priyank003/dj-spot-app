@@ -1,10 +1,9 @@
 .app__feature-div {
+  padding: 2rem 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
 }
 .app__feature-div p {
   text-align: start;
@@ -28,4 +27,35 @@
   margin: 1rem 0;
   font-size: 1.5rem;
   text-align: start;
+}
+
+@media screen and (max-width: 992px) {
+  .app__feature-icon {
+    height: 30px;
+    width: 60px;
+  }
+  .app__feature-div-header {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .app__feature-icon {
+    height: 30px;
+    width: 60px;
+  }
+  .app__feature-div-header {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .app__feature-div {
+    align-items: center;
+  }
+  .app__feature-div-header {
+    text-align: start;
+  }
+
+  .app__feature-div p {
+    text-align: center;
+  }
 }

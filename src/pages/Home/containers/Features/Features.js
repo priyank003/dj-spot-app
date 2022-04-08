@@ -12,40 +12,40 @@ export default function Features() {
           <h1>Exciting features</h1>
         </div>
         <div className="app__feature-grid">
-          <Row>
-            <FeatureBox
-              className="col-4"
-              header="Set your fees"
-              info="Be your own boss and set your booking fee, cancellations, and much more. No hidden rates. "
-            />
-            <FeatureBox
-              className="col-4"
-              header="Own your schedule"
-              info="Never miss a booking or upcoming gig with our efficient layout that keeps you on top of things. "
-            />
-            <FeatureBox
-              className="col-4"
-              header="Share your sound"
-              info="Never miss a booking or upcoming gig with our efficient layout that keeps you on top of things. "
-            />
-          </Row>
-          <Row>
-            <FeatureBox
-              className="col-4"
-              header="Know your metrics"
-              info="We monitor everything, reviews, payments, bookings, leeds. We’ve got you covered. "
-            />
-            <FeatureBox
-              className="col-4"
-              header="Build your community"
-              info="Your timeline, your choice. Share your most amazing moments with your peers. "
-            />
-            <FeatureBox
-              className="col-4"
-              header="Know your doe"
-              info="Our digital waller protects your money, "
-            />
-          </Row>
+          {/* <Row> */}
+          <FeatureBox
+            className="col-md-4 col-sm-6"
+            header="Set your fees"
+            info="Be your own boss and set your booking fee, cancellations, and much more. No hidden rates. "
+          />
+          <FeatureBox
+            className="col-md-4 col-sm-6"
+            header="Own your schedule"
+            info="Never miss a booking or upcoming gig with our efficient layout that keeps you on top of things. "
+          />
+          <FeatureBox
+            className="col-md-4 col-sm-6"
+            header="Share your sound"
+            info="Never miss a booking or upcoming gig with our efficient layout that keeps you on top of things. "
+          />
+          {/* </Row> */}
+          {/* <Row> */}
+          <FeatureBox
+            className="col-md-4 col-sm-6"
+            header="Know your metrics"
+            info="We monitor everything, reviews, payments, bookings, leeds. We’ve got you covered. "
+          />
+          <FeatureBox
+            className="col-md-4 col-sm-6"
+            header="Build your community"
+            info="Your timeline, your choice. Share your most amazing moments with your peers. "
+          />
+          <FeatureBox
+            className="col-md-4 col-sm-6 col-12"
+            header="Know your doe"
+            info="Our digital waller protects your money, "
+          />
+          {/* </Row> */}
         </div>
       </Container>
     </div>

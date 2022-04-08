@@ -8,3 +8,8 @@
 .app__feature-header {
   align-self: flex-start;
 }
+.app__feature-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

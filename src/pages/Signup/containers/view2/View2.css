@@ -1,0 +1,11 @@
+.app__signup-back-btn {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+}
+.app__signup-back-icon {
+  margin-right: 10px;
+  height: 20px;
+  width: 41px;
+  background-color: #c4c4c4;
+}
